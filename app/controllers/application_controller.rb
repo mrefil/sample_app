@@ -1,6 +1,13 @@
 class ApplicationController < ActionController::Base
   def hello
-    render html: "Selam, Naber?"
+    render html: "hello, world!"
+  end
+
+  def home
+  
   end
   
+  def about
+    
+  end
 end
